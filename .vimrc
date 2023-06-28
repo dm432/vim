@@ -71,6 +71,9 @@ nnoremap <c-u> <C-w>s
 nnoremap <c-m> <C-w><C-r>
 " Close window with ctrl+o
 nnoremap <C-o> :q<CR>
+""" Close current window with space+q or all with space+qa
+nnoremap <leader>q :q<CR>
+nnoremap <leader>qa :qa<CR>
 " Move between split windows with ctrl+direction
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>

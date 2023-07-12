@@ -1,5 +1,6 @@
 " Plugins
 set NERDTree
+set easymotion
 
 " ----------- Text Rendering Options ---------
 " Keep 5 lines above and below the cursor
@@ -39,9 +40,9 @@ let mapleader = " "
 " Clear search highlighting with space+c
 nnoremap <leader>c :noh<CR>
 " Find occurrence before cursor with space+h
-nnoremap <leader>h <Plug>(easymotion-s)
+map <leader>h <Plug>(easymotion-s)
 " Find occurrence before cursor with space+j
-nnoremap <leader>j <Plug>(easymotion-f)
+map <leader>j <Plug>(easymotion-f)
 """ Focus project tree with space+t
 nnoremap <leader>t :NERDTreeFocus<CR>
 " Move between tabs with (shift+)tab
@@ -73,3 +74,4 @@ set clipboard=unnamedplus
 " ---------- IntelliJ Options ----------
 " Use smart line joining
 set ideajoin
+set showmode

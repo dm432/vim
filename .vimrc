@@ -53,9 +53,9 @@ let mapleader = " "
 " Clear search highlighting with space+c
 nnoremap <leader>c :noh<CR>
 " Find occurence before cursor with space+h
-nnoremap <leader>h <Plug>(easymotion-s)
+map <leader>h <Plug>(easymotion-s)
 " Find occurence before cursor with space+j
-nnoremap <leader>j <Plug>(easymotion-f)
+map <leader>j <Plug>(easymotion-f)
 " Toggle file tree with space+t
 nnoremap <leader>t :NERDTreeTabsToggle<CR>
 " Move between tabs with (shift+)tab
